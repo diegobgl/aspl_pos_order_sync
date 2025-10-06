@@ -10,7 +10,7 @@
             </div>
         </xpath>
 
-        <xpath expr="//div[hasclass('receipt-change')]" position="before">
+        <!--xpath expr="//div[hasclass('receipt-change')]" position="before">
             <t t-if="env.pos.get_order().get_journal()">
                <div t-foreach="env.pos.get_order().get_journal()" t-as="line">
                    <span>
@@ -22,7 +22,7 @@
                </div>
                 <br></br>
            </t>
-        </xpath>
+        </-xpath-->
 
         <xpath expr="//div[hasclass('receipt-change')]" position="replace">
             <div class="pos-receipt">
