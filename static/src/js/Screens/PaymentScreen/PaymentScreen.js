@@ -52,12 +52,9 @@ odoo.define('aspl_pos_order_sync.PaymentScreenInherit', function(require) {
             }
 
             return isValid;
-        }
-    };
+            }
+        };
 
-    Registries.Component.extend(PaymentScreen, CustomPaymentScreen);
+        Registries.Component.extend(PaymentScreen, CustomPaymentScreen);
 
-    return CustomPaymentScreen;
-});
-
-});
+         return CustomPaymentScreen;});
